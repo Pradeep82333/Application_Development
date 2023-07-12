@@ -1,0 +1,38 @@
+.Login {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Link {
+  text-decoration: none;
+  color: #000;
+}
