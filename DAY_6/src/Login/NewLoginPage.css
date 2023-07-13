@@ -1,0 +1,69 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+}
+
+.login .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  background-color: #fff; /* Add a background color to the form */
+  padding: 50px; /* Add padding to the form */
+  border: 1px solid #ccc; /* Add a border to the form */
+  border-radius: 4px; /* Add border-radius to the form */
+}
+
+.login-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login-input {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.login button:hover {
+  background-color: #45a049;
+}
+
+.login p {
+  margin-top: 10px;
+}
+
+.login p a {
+  color: blue;
+}
+
+body:not(.login) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=44d16482d444b141166ecda3904bcfc7caf67b88-9234963-images-thumbs&n=13');
+}

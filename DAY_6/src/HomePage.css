@@ -1,0 +1,46 @@
+form.home {
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home label {
+  margin-bottom: 10px;
+}
+
+.home select,
+.home input[type="number"],
+.home input[type="text"],
+.home input[type="tel"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.home button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.home button:hover {
+  background-color: #45a049;
+}
+
+.home .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.home div {
+  display: flex;
+  align-items: center;
+}
