@@ -1,0 +1,63 @@
+.login {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gogo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-floating {
+  width: 100%;
+}
+
+.loginbox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.jo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  background-color: #000;
+  color: #fff;
+}
+
+.login {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+}

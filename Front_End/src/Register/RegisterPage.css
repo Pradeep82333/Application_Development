@@ -1,0 +1,61 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://avatars.mds.yandex.net/i?id=0e093ebb21e6dc6fde5a5b68d54e8179e2279be8-8981816-images-thumbs&n=13');
+}
+
+.register h2 {
+  margin-bottom: 1rem;
+}
+
+.register form {
+  width: 300px;
+  padding: 2rem;
+  background-image: url('https://avatars.mds.yandex.net/i?id=0e093ebb21e6dc6fde5a5b68d54e8179e2279be8-8981816-images-thumbs&n=13');
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.register .form-group {
+  margin-bottom: 1rem;
+}
+
+.register .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.register .form-group input,
+.register .form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register .register-button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.register .toast-message {
+  margin-top: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.register p {
+  margin-top: 1rem;
+}
+
